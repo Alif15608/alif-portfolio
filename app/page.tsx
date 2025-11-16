@@ -250,7 +250,7 @@ export default function Home() {
                 </div>
                 <button className="inline-block bg-[#4B91CD] hover:bg-[#13344d] text-white px-6 py-3 rounded-md transition-colors">
                   <a 
-                    href="/alif.pdf" 
+                    href="https://raw.githubusercontent.com/Alif15608/Resume/main/Alif.pdf" 
                     download="Ashraful Hossain Alif.pdf"
                   >
                     Download Resume
