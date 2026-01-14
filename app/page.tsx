@@ -199,7 +199,7 @@ export default function Home() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-[#4B91CD]">
               <div className="absolute inset-0 overflow-hidden rounded-full">
                 <Image
-                  src="/alif.jpg" // Path from public folder
+                  src="/IMG_3876.jpg" // Path from public folder
                   alt="Alif"
                   width={320}  // Match container's max width (md:w-80)
                   height={320} // Match container's max height
