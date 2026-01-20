@@ -664,7 +664,8 @@ export default function Home() {
                         <p className="font-medium">Get the most out of Rovo</p>
                         <p className="text-sm text-gray-400">Atlassian, 2025</p>
                       </div>
-                      <li className="flex items-center gap-3">
+                    </li>
+                    <li className="flex items-center gap-3">
                       <span className="text-[#4B91CD]">
                         <CheckCircle size={20} />
                       </span>
