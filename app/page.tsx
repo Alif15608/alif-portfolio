@@ -940,7 +940,6 @@ export default function Home() {
               <Gitlab className="w-6 h-6 hover:text-gray-300" />
             </a>
             <a href="https://leetcode.com/u/alif3443/" target="_blank" rel="noopener noreferrer">
-              {/* For LeetCode, you may need a custom icon or text */}
               <span className="text-lg font-bold hover:text-gray-300">LC</span>
             </a>
           </div>
