@@ -177,8 +177,9 @@ export default function Home() {
             </h1>
             <span className="text-[#F0DB4F] text-4xl md:text-5xl">&gt;</span>
             <p className="text-gray-300 text-lg">
-              I build robust applications and architect complex systems with Python. Specializing in AI,
-              Machine Learning and web development with a focus on database optimization and cloud computing.
+              I build and architect complex, AI-driven systems with Python, specializing in machine learning, full-stack development (MERN/Django) 
+              and cloud-native automation. My work focuses on creating scalable solutions, optimizing databases and deploying efficient applications to the 
+              cloud.
             </p>
             <div className="flex space-x-4 pt-4">
               <button
@@ -223,13 +224,11 @@ export default function Home() {
             </h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm a passionate Python developer with extensive experience in building AI driven applications and web platforms. My expertise extends to designing complex system architectures that are
-                both efficient and scalable.
+                I develop AI-powered applications and scalable web platforms using Python, with a focus on architectural efficiency and performance.
               </p>
               <p>
-                With a strong foundation in database management and cloud computing, I create solutions that leverage
-                the best technologies to solve real-world problems. I'm constantly exploring new technologies and
-                methodologies to enhance my skills and deliver better results.
+                My solutions are built on a foundation of optimized database management and strategic cloud computing, aimed at addressing tangible challenges. 
+                I actively explore emerging technologies to ensure my work delivers cutting-edge results.
               </p>
               <div className="pt-4">
                 <div className="flex items-center gap-2 mb-2">
@@ -250,7 +249,7 @@ export default function Home() {
                 </div>
                 <button className="inline-block bg-[#4B91CD] hover:bg-[#13344d] text-white px-6 py-3 rounded-md transition-colors">
                   <a 
-                    href="/alif.pdf" 
+                    href="/Ashraful_Hossain_Alif_Resume.pdf" 
                     download="Ashraful Hossain Alif.pdf"
                   >
                     Download Resume
@@ -266,16 +265,15 @@ export default function Home() {
             <div className="bg-[#1A2234] p-6 rounded-lg mb-8">
               <h3 className="text-2xl text-[#F0DB4F] mb-4">Mission</h3>
               <p className="text-gray-300">
-                To leverage my Python, Machine Learning & AI expertise to create innovative, intelligent solutions that solve 
-                complex problems, automate processes and deliver exceptional value through data-driven decision making.
+                To apply deep expertise in Python, Machine Learning and Artificial Intelligence toward crafting innovative solutions that automate critical 
+                processes, solve intricate problems and empower organizations with data-driven decision-making.
               </p>
             </div>
             <div className="bg-[#1A2234] p-6 rounded-lg">
               <h3 className="text-2xl text-[#F0DB4F] mb-4">Vision</h3>
               <p className="text-gray-300">
-                To become a recognized expert in Python development, Machine Learning & AI system architecture, contributing to 
-                cutting-edge open-source projects while developing ethical AI solutions that push technological boundaries and mentor 
-                the next generation of data scientists and AI engineers.
+                To establish myself as an authority in the design of AI systems, recognized for advancing ethical technology and contributing to foundational 
+                open-source projects, while cultivating talent within the data science community.
               </p>
             </div>
           </div>
@@ -294,16 +292,16 @@ export default function Home() {
               <h3 className="text-2xl text-[#4B91CD] mb-6">Programming Languages</h3>
               <div className="space-y-6">
                 <SkillBar name="Python" percentage={95} />
-                <SkillBar name="C++" percentage={82} />
                 <SkillBar name="JavaScript" percentage={90} />
+                <SkillBar name="Node.js" percentage={82} />
                 <SkillBar name="React" percentage={83} />
-                <SkillBar name="React Native" percentage={75} />
+                <SkillBar name="TypeScript" percentage={75} />
               </div>
             </div>
             <div className="bg-[#1A2234] p-6 rounded-lg">
               <h3 className="text-2xl text-[#4B91CD] mb-6">Frameworks & Libraries</h3>
               <div className="space-y-6">
-                <SkillBar name="Django" percentage={92} />
+                <SkillBar name="Django & RESTful APIs" percentage={92} />
                 <SkillBar name="Flask & FastAPI" percentage={88} />
                 <SkillBar name="PyQt & Kivy" percentage={85} />
                 <SkillBar name="TensorFlow & PyTorch" percentage={75} />
@@ -314,10 +312,10 @@ export default function Home() {
               <h3 className="text-2xl text-[#4B91CD] mb-6">Database & Cloud</h3>
               <div className="space-y-6">
                 <SkillBar name="MySQL" percentage={95} />
-                <SkillBar name="NoSQL" percentage={80} />
+                <SkillBar name="MongoDB" percentage={80} />
                 <SkillBar name="Clustering & Replication" percentage={78} />
                 <SkillBar name="HA Proxy & Load Balancing" percentage={82} />
-                <SkillBar name="AWS & Docker" percentage={70} />
+                <SkillBar name="Docker & Kubernetes" percentage={70} />
               </div>
             </div>
             <div className="bg-[#1A2234] p-6 rounded-lg">
@@ -334,9 +332,9 @@ export default function Home() {
   <h3 className="text-2xl text-[#4B91CD] mb-6">Other Skills</h3>
   <div className="flex flex-wrap gap-3">
     {[
-      'Git & GitHub', 'RESTful APIs', 'Ajax & Bootstrap', 'HTML & CSS',
-      'Linux', 'Data Analysis', 'Machine Learning', 'Web Scraping',
-      'Automation', 'UI/UX Design', 'Technical Writing', 'Project Management'
+      'Git & GitHub', 'GitLab', 'Next.js', 'React-Native', 'PostgreSQL', 'Redis', 'SciPy', 'Matplotlib', 'SQL', 'Ajax & Bootstrap', 'HTML & CSS',
+      'Linux', 'Data Analysis', 'Machine Learning', 'Web Scraping', 'AWS', 'Azure', 'GCP', 'Terraform', 'ORMs', 'GraphQL',
+      'Automation', 'Powershell', 'Saas Application', 'Project Management'
     ].map((skill) => (
       <div
         key={skill}
@@ -558,7 +556,7 @@ export default function Home() {
                 <div className="absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-[#4B91CD]"></div>
                 <div className="bg-[#1A2234] p-6 rounded-lg">
                   <div className="flex justify-between items-center mb-2">
-                    <h4 className="text-xl font-semibold">Junior Cloud Engineer</h4>
+                    <h4 className="text-xl font-semibold">Developer & Applied AI Engineer</h4>
                     <span className="text-sm bg-[#1E3A5F] text-[#4B91CD] px-3 py-1 rounded-full">2024 - Present</span>
                   </div>
                   <p className="text-[#F0DB4F] mb-3">Mir Cloud</p>
@@ -588,7 +586,7 @@ export default function Home() {
                   </div>
                   <p className="text-[#F0DB4F] mb-3">American International University-Bangladesh</p>
                   <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                    <li>GPA: 3.86/4.0</li>
+                    <li>GPA: 3.84/4.0</li>
                     <li>Thesis: "Stand up Against Bad Intended News: An Approach to Detect Fake News using Machine Learning."</li>
                     <li>Major: Software Engineering</li>
                     <li>Published 1 paper in international conference & Executive of Computer Club</li>
@@ -645,8 +643,8 @@ export default function Home() {
                         <CheckCircle size={20} />
                       </span>
                       <div>
-                        <p className="font-medium">Certified Docker Administrator</p>
-                        <p className="text-sm text-gray-400">OSTAD, 2025</p>
+                        <p className="font-medium">IBM Docker for Beginners</p>
+                        <p className="text-sm text-gray-400">Coursera, 2025</p>
                       </div>
                     </li>
                     <li className="flex items-center gap-3">
@@ -654,8 +652,8 @@ export default function Home() {
                         <CheckCircle size={20} />
                       </span>
                       <div>
-                        <p className="font-medium">Database Management</p>
-                        <p className="text-sm text-gray-400">MySQL, 2022</p>
+                        <p className="font-medium">IBM DevOPS, Cloud and Agile Foundations</p>
+                        <p className="text-sm text-gray-400">Coursera, 2025</p>
                       </div>
                     </li>
                     <li className="flex items-center gap-3">
@@ -663,8 +661,16 @@ export default function Home() {
                         <CheckCircle size={20} />
                       </span>
                       <div>
-                        <p className="font-medium">TensorFlow Developer Certificate</p>
-                        <p className="text-sm text-gray-400">Online, 2024</p>
+                        <p className="font-medium">Get the most out of Rovo</p>
+                        <p className="text-sm text-gray-400">Atlassian, 2025</p>
+                      </div>
+                      <li className="flex items-center gap-3">
+                      <span className="text-[#4B91CD]">
+                        <CheckCircle size={20} />
+                      </span>
+                      <div>
+                        <p className="font-medium">OCI Generative AI</p>
+                        <p className="text-sm text-gray-400"> Oracle, 2025</p>
                       </div>
                     </li>
                   </ul>
@@ -921,11 +927,21 @@ export default function Home() {
             <a href="https://www.instagram.com/alif.______khan?igsh=dnl1OHkzNnJxOTRm&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <Instagram className="w-6 h-6 hover:text-[#C13584]" />
             </a>
-            <a href="https://www.linkedin.com/in/ashraful-hossain-alif-0bba48214/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/alif6475/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 hover:text-[#0077B5]" />
+            </a>
+            <a href="https://x.com/alif15608" target="_blank" rel="noopener noreferrer">
+              <X className="w-6 h-6 hover:text-[#0077B5]" />
             </a>
             <a href="https://github.com/Alif15608" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 hover:text-gray-300" />
+            </a>
+            <a href="https://gitlab.com/alif15608" target="_blank" rel="noopener noreferrer">
+              <Gitlab className="w-6 h-6 hover:text-gray-300" />
+            </a>
+            <a href="https://leetcode.com/u/alif3443/" target="_blank" rel="noopener noreferrer">
+              {/* For LeetCode, you may need a custom icon or text */}
+              <span className="text-lg font-bold hover:text-gray-300">LC</span>
             </a>
           </div>
 
