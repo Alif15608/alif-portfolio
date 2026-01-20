@@ -26,6 +26,7 @@ import {
   Linkedin,
   Twitter,
   Github,
+  Gitlab,
 } from "lucide-react"
 
 export default function Home() {
