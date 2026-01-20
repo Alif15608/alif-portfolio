@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "approve-builds": "vercel projects approve-builds prj_UA31Y1Gq8l4hb7HBZ8oY4QtUBoRZ sharp@0.33.5"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
